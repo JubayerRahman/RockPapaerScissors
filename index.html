@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./gameIcon.jpg" z-index="1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Papae Scissors</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <h1>ROCK PAPER SCISSOR</h1>
+        </nav>
+        <div class="computerChoiceDisplay" id="computerChoiceDisplay">
+            <h2>Computer Chose</h2>
+            <div class="computerIcon" id="computerIcon">
+                <i id="rock" class="fa-3x fa-solid fa-hand-back-fist "></i>
+                <i id="paper" class="fa-3x fa-solid fa-hand "></i>
+                <i id="scissor" class="fa-3x fa-solid fa-hand-scissors "></i>
+            </div>
+        </div>
+        
+        <div class="userSection">
+            <h2>You Choose:</h2>
+            <div class="buttonSection">
+            <button class="button rock" id="1"><i class="fa-2x fa-solid fa-hand-back-fist"></i></button>
+            <button class="button paper" id="2"><i class="fa-2x fa-solid fa-hand"></i></button>
+            <button class="button scissor" id="3"><i class="fa-2x fa-solid fa-hand-scissors"></i></button>
+        </div>
+        <h2 id="result" class="result"></h2>
+        </div>
+    </main>
+    <!-- js scripts -->
+    <script src="https://kit.fontawesome.com/c74447f892.js" crossorigin="anonymous"></script>
+    <script src="./function.js"></script>
+</body>
+</html>

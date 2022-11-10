@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav{
+    text-align: center;
+    background-color: purple;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 2px black;
+    position: sticky;
+    top:0px;
+}
+.userSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(77, 77, 219);
+    color: white;
+    margin: auto;
+    padding: 40px 0px;
+    width:90%;
+    border-radius: 20px;
+}
+.userSection h2{
+    padding: 40px 0px;
+}
+button{
+    margin: 10px;
+    background-color: rgb(77, 77, 219);
+    border: 3px solid  ;
+    padding: 20px;
+    border-radius: 50px;
+    transition: 1s ease-in-out;
+}
+button:hover{
+    border-color: green;
+}
+.rock{
+    background-color: #FFE84A;
+    color: rgb(77, 77, 219);
+}
+.paper{
+    background-color: #00E0D5;
+    color: rgb(77, 77, 219);
+}
+.scissor{
+    background-color: #F1BAF4;
+    color: rgb(77, 77, 219);
+}
+i{
+}
+#rock,#paper,#scissor{
+    display: none;
+}
+.computerChoiceDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.computerIcon{
+    color: rgb(77, 77, 219);
+    padding: 40px 0px;
+}
+@media (min-width:300px) and (max-width:800px) {
+    .computerChoiceDisplay{
+        margin-top: 10px;
+    }
+    .userSection{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    button{
+        font-size: 10px;
+    }
+}
